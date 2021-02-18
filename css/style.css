@@ -1,0 +1,65 @@
+
+body{
+    margin: 0 0 0 0;
+    background-color: antiquewhite;
+    color: #404040;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header,footer{
+    background-color: royalblue;
+}
+
+.site-title{
+    color: brown;
+}
+
+#my-image{
+    box-shadow: 0px 0px 2px 1x #000000;
+}
+
+ul.b{
+    list-style-type: square;
+}
+
+ul:nth-child(odd){
+    background: red;
+}
+
+
+
+a:link {
+    color:none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: none;
+  }
+
+
+  a:link {
+    background-color:green;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+
+  a:hover {
+    background-color: lightgreen;
+  }
+
